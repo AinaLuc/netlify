@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 96.66 75.85">
+  <defs>
+    <style>.cls-1,.cls-3{fill:#fff;}.cls-1{stroke:#000;stroke-width:1.2px;}.cls-1,.cls-2{stroke-miterlimit:10;}.cls-2{stroke:#fff;stroke-width:0.12px;}</style>
+  </defs>
+  <path class="cls-1" d="M88,10.4H36.8a8,8,0,0,0-8,8v32a8,8,0,0,0,8,8h25L80.58,74A1.61,1.61,0,0,0,83.2,72.8V58.4H88a8,8,0,0,0,8-8v-32A8,8,0,0,0,88,10.4Z" transform="translate(0.06 -9.8)"></path>
+  <path class="cls-1" d="M33.6,50.4v-32a8,8,0,0,1,8-8H36.8a8,8,0,0,0-8,8v32a8,8,0,0,0,8,8h4.8A8,8,0,0,1,33.6,50.4Z" transform="translate(0.06 -9.8)"></path>
+  <path class="cls-1" d="M66.62,58.4h-4.8L80.58,74A1.61,1.61,0,0,0,83.2,72.8v-.58Z" transform="translate(0.06 -9.8)"></path>
+  <path class="cls-2" d="M81.6,24.8H67.2a1.6,1.6,0,0,1,0-3.2H81.6a1.6,1.6,0,1,1,0,3.2Z" transform="translate(0.06 -9.8)"></path>
+  <path class="cls-2" d="M68.8,37.6H43.2a1.6,1.6,0,0,1,0-3.2H68.8a1.6,1.6,0,1,1,0,3.2Z" transform="translate(0.06 -9.8)"></path>
+  <path class="cls-2" d="M75.2,50.4h-32a1.6,1.6,0,0,1,0-3.2h32a1.6,1.6,0,0,1,0,3.2Z" transform="translate(0.06 -9.8)"></path>
+  <path class="cls-2" d="M81.6,37.6h-8a1.6,1.6,0,1,1,0-3.2h8a1.6,1.6,0,1,1,0,3.2Z" transform="translate(0.06 -9.8)"></path>
+  <path class="cls-2" d="M59.2,21.6H8a8,8,0,0,0-8,8v32a8,8,0,0,0,8,8h3.2V84a1.61,1.61,0,0,0,2.63,1.23L32.58,69.6H59.2a8,8,0,0,0,8-8v-32A8,8,0,0,0,59.2,21.6Z" transform="translate(0.06 -9.8)"></path>
+  <path d="M16,69.6H12.8a8,8,0,0,1-8-8v-32a8,8,0,0,1,8-8H8a8,8,0,0,0-8,8v32a8,8,0,0,0,8,8h3.2V84a1.61,1.61,0,0,0,2.63,1.23L16,83.42V69.6Z" transform="translate(0.06 -9.8)"></path>
+  <circle class="cls-3" cx="19.26" cy="35.8" r="4.8"></circle>
+  <circle class="cls-3" cx="33.66" cy="35.8" r="4.8"></circle>
+  <circle class="cls-3" cx="48.06" cy="35.8" r="4.8"></circle>
+</svg>
