@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Boutique de Yves - Le paradis du n'importe quoi</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #ffcc00;
+            text-align: center;
+            padding: 40px 20px;
+            border-radius: 0 0 20px 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #333;
+        }
+        header p {
+            margin: 5px 0;
+            font-style: italic;
+            color: #666;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .product {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+        .product:hover {
+            transform: translateY(-5px);
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .product h2 {
+            font-size: 1.5em;
+            color: #ff6600;
+            margin: 0 0 10px;
+        }
+        .widget-section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 40px 0;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            border-radius: 20px 20px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>La Boutique de Yves</h1>
+            <p>Où tout est garanti 100% inutile ou remboursé*</p>
+            <p>*Remboursement en cailloux uniquement</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="products">
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Chaussettes">
+                <h2>Chaussettes Dépareillées - 19,99€</h2>
+                <p>Parfait pour impressionner votre belle-mère ou faire fuir les pigeons. Vendues à l'unité pour plus de fun!</p>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1498579397066-306ae5a6e965" alt="Plante">
+                <h2>Plante en Plastique Mort-Vivante - 29,99€</h2>
+                <p>Elle fait semblant de mourir tous les jours pour vous culpabiliser. Arrosage non requis, sarcasmes inclus.</p>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1496116218417-1a781b1c416c" alt="Café">
+                <h2>Café Décaféiné Hyperactif - 12,99€</h2>
+                <p>Le goût du café, l'énergie d'un hamster sous Red Bull, mais sans la caféine. Parfait pour rater vos siestes!</p>
+            </div>
+        </section>
+
+        <section class="widget-section">
+            <h2>Parlez à Yves en direct!</h2>
+            <p>Notre assistant virtuel qui répond à côté de la plaque :</p>
+            <elevenlabs-convai agent-id="6IQiI7tKDi2xndX9wggW"></elevenlabs-convai><script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>        
+        </section>
+    </div>
+
+    <footer>
+        <p>La Boutique de Yves - Depuis hier, pour votre malheur et notre plaisir!</p>
+        <p>Livraison en trottinette par Yves lui-même (si il trouve votre adresse)</p>
+    </footer>
+</body>
+</html>
